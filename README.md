@@ -2,7 +2,7 @@
 ## Problem 1: (BONUS) Did you solve the steganographic message hidden throughout our recorded lectures? What was the message and how was it encoded?
 No I did not.
 
-## Problem 2: (Shift) You are sitting outside on a park bench, when a paper airplane hits you on the shoulder. You unfold the paper to discover the following mysterious message. 
+## Problem 2: (Shift) You are sitting outside on a park bench, when a paper airplane hits you on the shoulder. You unfold the paper to discover the following mysterious message. Decipher this message, and identify the author. For a bonus point: what is the special characteristic of the source text of this message?
 ```
 nkdtz ymymw tzlmt zyfqq mnxyt wdmfi mfifh mfrun tsytx yfsiz uktwn yytxm tbfit zgyns lbtwq iymfy fhmnq ihfsy mnspf siutx xngqd itnyu wfhyn hfqqd dtzbt zqisy htsxy fsyqd wzsfh
 wtxxk tqpxy tifdb mthqf nrymf yfhmn qiits ypstb fsdym nslfh mnqix gwfns xyfwy xkzsh yntsn slfyg nwymf simfx frtsl xynyx rfsdn skfsy htsat qzynt sxymt zxfsi xtkit wrfsy fytrx
@@ -19,3 +19,9 @@ ATOMS INTOW HICHG ODHAS PUTAM YSTIC POSSI BILIT YFORN OTICI NGANA DULTS ACTAN DF
 If I space out this text properly I get the following message: <br>
 "IF YOUTH THROUGHOUT ALL HISTORY HAD HAD A CHAMPION TO STAND UP FOR IT TO SHOW A DOUBTING WORLD THAT A CHILD CAN THINK AND POSSIBLY DO IT PRACTICALLY YOU WOULDNT CONSTANTLY RUN ACROSS FOLKS TODAY WHO CLAIM THAT A CHILD DONT KNOW ANYTHING A CHILDS BRAIN STARTS FUNCTIONING AT BIRTH AND HAS AMONGST ITS MANY INFANT CONVOLUTIONS THOUSANDS OF DORMANT ATOMS INTO WHICH GOD HAS PUT A MYSTIC POSSIBILITY FOR NOTICING AN ADULTS ACT AND FIGURING OUT ITS PURPORT" <br>
 Which is a quote from the book Gadsby by Ernest Vincent Wright.
+
+## Problem 3: (affine) A few days later, you are sitting at your computer with an open terminal. Suddenly, the cursor starts moving and the following message appears on your screen 
+```
+(affine) A few days later, you are sitting at your computer with an open terminal. Suddenly, the cursor starts moving and the following message appears on your screen 
+```
+Moments later, you receive a Signal message from an untraceable number: the first two letters are "if" Crack the code.

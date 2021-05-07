@@ -37,4 +37,6 @@ We can now solve for b in one of our previous equations. <br>
 14 mod 26 = (17 * 8 + b) mod 26 <br>
 14 - 17 * 8 mod 26 = b = 8 <br>
 a = 17 <br>
-b = 8
+b = 8 <br>
+If we plug these values into the python script I made for decoding affine ciphers (AffineCipher.py) then we get the following message: <br>
+"IFYOULEAVETHEFIVELETTERSATTHEENDOFTHISMESSAGEASDIGITSTHEYGIVEYOUANUMBERYOUWILLNEEDLATERONBGDDH"

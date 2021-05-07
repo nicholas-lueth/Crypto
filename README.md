@@ -22,5 +22,13 @@ Which is a quote from the book Gadsby by Ernest Vincent Wright.
 
 ## Problem 3: (affine) A few days later, you are sitting at your computer with an open terminal. Suddenly, the cursor starts moving and the following message appears on your screen: "OPAMKNYIBYTXYPOBYNYTTYLCITTXYYVHMPTXOCEYCCIGYICHOGOTCT\\\\XYAGOBYAMKIVKEZYLAMKSONNVYYHNITYLMVZGHHX" <br>Moments later, you receive a Signal message from an untraceable number: the first two letters are "if" Crack the code.
 For this problem we are going to need to a little bit of ,ath: first we need to develope 2 equations out of the chatacters that we know. We do this by associating the letters with number equivalents between 0 and 25. So 0 would be equivalent to A. <br>
-I(8) -> O(14) <br>
-F(5) -> P(15) <br>
+I(8) --> O(14) <br>
+F(5) --> P(15) <br>
+14 mod 26 = (a * 8 + b) mod 26 <br>
+15 mod 26 = (a * 5 + b) mod 26 <br>
+The easiest way to solve these equations is by subtracting them. <br>
+((a * 8 + b) mod 26) - ((a * 5 + b) mod 26)  <br>
+25 = a * 3 + 0 <br>
+a = 25/3 <br>
+a = 25 * 3^-1 <br>
+ 

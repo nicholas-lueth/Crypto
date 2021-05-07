@@ -42,4 +42,4 @@ If we plug these values into the python script I made for decoding affine cipher
 "IF YOU LEAVE THE FIVE LETTERS AT THE END OF THIS MESSAGE AS DIGITS THEY GIVE YOU A NUMBER YOU WILL NEED LATER ON BGDDH" <br>
 And the number we will need later on is 16337
 
-## Problem 4: (SDES) You wake up to an annoying flashing light outside your window. Paying attention to the rhythm of the flashes, you figure out that it is repeating the message: 001011011001 <br>8-bit and 12-bit blocks....sounds like an SDES message and its key! Decrypt the message.
+## Problem 4: (SDES) You wake up to an annoying flashing light outside your window. Paying attention to the rhythm of the flashes, you figure out that it is repeating the message: 10010011 <br>After you write it down, a new pattern begins: 001011011001 <br>8-bit and 12-bit blocks....sounds like an SDES message and its key! Decrypt the message.

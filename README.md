@@ -31,4 +31,10 @@ The easiest way to solve these equations is by subtracting them. <br>
 25 = a * 3 + 0 <br>
 a = 25/3 <br>
 a = 25 * 3^-1 <br>
- 
+Since now I need to find the modular inverse of 3, I created a program to do the work for me with ModularInverse.py. With the program we get the modular inverse of 9. <br>
+a = (25 * 9) mod 26 = 17 <br>
+We can now solve for b in one of our previous equations. <br>
+14 mod 26 = (17 * 8 + b) mod 26 <br>
+14 - 17 * 8 mod 26 = b = 8 <br>
+a = 17 <br>
+b = 8

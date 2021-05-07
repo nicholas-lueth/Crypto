@@ -39,4 +39,5 @@ We can now solve for b in one of our previous equations. <br>
 a = 17 <br>
 b = 8 <br>
 If we plug these values into the python script I made for decoding affine ciphers (AffineCipher.py) then we get the following message: <br>
-"IFYOULEAVETHEFIVELETTERSATTHEENDOFTHISMESSAGEASDIGITSTHEYGIVEYOUANUMBERYOUWILLNEEDLATERONBGDDH"
+"IFYOULEAVETHEFIVELETTERSATTHEENDOFTHISMESSAGEASDIGITSTHEYGIVEYOUANUMBERYOUWILLNEEDLATERONBGDDH" <br>
+And the number we will need later on is 16337

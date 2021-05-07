@@ -1,7 +1,6 @@
 # Code written by Nick Lueth
 
 import math
-import sys
 # Set the variables
 num = 3
 mod = 26

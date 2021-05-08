@@ -1,6 +1,6 @@
 # Mathamatical cryptography Final
 ## Problem 1: (BONUS) Did you solve the steganographic message hidden throughout our recorded lectures? What was the message and how was it encoded?
-No I did not.
+No, I did not.
 
 ## Problem 2: (Shift) You are sitting outside on a park bench, when a paper airplane hits you on the shoulder. You unfold the paper to discover the following mysterious message. Decipher this message, and identify the author. For a bonus point: what is the special characteristic of the source text of this message?
 ```
@@ -31,7 +31,7 @@ The easiest way to solve these equations is by subtracting them. <br>
 25 = a * 3 + 0 <br>
 a = 25/3 <br>
 a = 25 * 3^-1 <br>
-Since now I need to find the modular inverse of 3, I created a program to do the work for me with ModularInverse.py. With the program we get the modular inverse of 9. <br>
+Since now I need to find the modular inverse of 3, I created a program to do the work for me with ModularInverse.py. With the program, we get the modular inverse of 9. <br>
 a = (25 * 9) mod 26 = 17 <br>
 We can now solve for b in one of our previous equations. <br>
 14 mod 26 = (17 * 8 + b) mod 26 <br>
@@ -43,7 +43,7 @@ If we plug these values into the python script I made for decoding affine cipher
 And the number we will need later on is 16337
 
 ## Problem 4: (SDES) You wake up to an annoying flashing light outside your window. Paying attention to the rhythm of the flashes, you figure out that it is repeating the message: 10010011 <br>After you write it down, a new pattern begins: 001011011001 <br>8-bit and 12-bit blocks... sounds like an SDES message and its key! Decrypt the message.
-Since I'm on a time crunch I'm going to unfortunatley skip this question, but I think this would be a really cool cipher to try and decode and implement in python.
+Since I'm on a time crunch I'm going to, unfortunately, skip this question, but I think this would be a really cool cipher to try and decode and implement in python.
 
 ## Problem 5: (Vigenere) Another paper airplane, another mysterious message. Identify the source of this message for one bonus point. Hint: the fourth character of the keyword has already been sent to you...
 ```
@@ -63,9 +63,9 @@ FDBDW RYTVH VRDGC OIJWT URJDM RPDGT GJVWI ZLWMU AZLWB KIZJW IQHJH ACQKV VSMHT ZF
 DSMUJ ZJHBD WZXPN UEZVI WVXRJ IBKIS WATJS ZFVBK ISWAT KYEYD VWLVV DWUFP ETIQW FXPKX VMWSZ LFSGC WIWKW TTZEJ VXNIM TMABW STAGK XQMWC BLXNS HPRTV 
 DTAVP PUGIF OVVQC WSWSC MYIEA CODXK ZTAOM XZIMV XGJDD RGRLX WQMKU AIWXV JTLEI YACLW LVUJA WSDWG ELXYA BXXHV FIDLV LDTVF IXXXX
 ```
-I don't know what the fourth character is, but I can still figure this out. I started by using the index of coincidence to try and identify the key length. What that sentence does tell us is that the keyword is 4 charcters or longer. I made a, you guess it, a python script to do this for me. It's called Coincidence.py<br>
-When I ran the script I found that every 6 characters the coincidence would increase to a little over 6% which is about a 2-3% increase over the others. With this information we can assume the keylength is 6. <br>
-The next step is to separate each letter into 6 bins, in this example we would but the first character in the first bin the second character in the second and so on and so forth. Then once we have all of the characters group we will use a freqency analysis to identify what that letter in the key is. I made 2 more python scripts for this. (BinSort.py and FrequencyAnalysis.py) and fed the results from the bin sort to the frequency analysis. I get the following bins: <br>
+I don't know what the fourth character is, but I can still figure this out. I started by using the index of coincidence to try and identify the key length. What that sentence does tell us is that the keyword is 4 characters or longer. I made a, you guessed it, a python script to do this for me. It's called Coincidence.py<br>
+When I ran the script I found that for every 6 characters the coincidence would increase to a little over 6% which is about a 2-3% increase over the others. With this information, we can assume the key length is 6. <br>
+The next step is to separate each letter into 6 bins, in this example we would put the first character in the first bin the second character in the second, and so on and so forth. Then once we have all of the characters group we will use frequency analysis to identify what that letter in the key is. I made 2 more python scripts for this. (BinSort.py and FrequencyAnalysis.py) and fed the results from the bin sort to the frequency analysis. I get the following bins: <br>
 ```
 Bin 1:
 EGYLFXZAAYKWODFMJWLALEJSFDWWJUTLMKTAFGKSSZLDKKSSGOGWTGZAFILXWJLGWDLHIGDLJSKSLLWWVVWYGJTHKJFFVYGGMKUJVHSOJHEFKDWDWEELKWSMWWFXUMLMGJAQQZOCDGDSAJKSGZKFHWOWDWKWWDLZKZZFADLYKWFWKVLJEWLWUWKGWZQEZGOXEJHKDFJJMAWSWFMESCVDXGSFZLGZLGFLLWSKZSSTMFLSWWFZFYDWMGLLJHVFVWZSQVWFDJXVJWFWYVEXWGWVMAWSDUVSAZZJLUJAUWAFDX
@@ -85,7 +85,7 @@ VMMSPWSPELXPSHGLWMYWXHMRESIKPIMFWWYWVLIGSVMLAPSIMRSQOWIHKXFXSRXASSLEIEAIKMPMEXVR
 Bin 6:
 CEEIVJDPIZYRLFRVMKJRZGTFCIMDFUKFFZJRVZNYWFEVRCNYKVJPYNOZVZVYWJZEEEFJSGZWCEGEPYIVVVEFTPJLRZFVFJVJJEZEZBEVVKZFCGVMZUUUYCXWSRKYGRYIKJIXTFJSFKDXUIJFKVZDZVIFZSEGUEKVKTFJKUFKURIPVZFFBIBVDVKNKIXFSVNZFGEEVFLSBEPYVWFYKRFFIFIXFDTUJFFWEXKYVIWDIFMCYZKURRJDTZZZJVZZBKFVVUFLZZZRSZSEVPFMSKJTTMNVPVWEKXGRKVYVDYVLX
 ```
-In the first bin W is most likely = E based on the frequency analysis of the english language. Based on this information the distance between these two letters (22 - 4 = 18) or as a letter "S". If I do this for every bin I get a guess of what the key is. At the end I get:
+In the first bin W is most likely = E based on the frequency analysis of the English language. Based on this information the distance between these two letters (22 - 4 = 18) or as a letter "S". If I do this for every bin I get a guess of what the key is. In the end I get:
 W(22) = E(4) <br>
 22 - 4 = 18 = S <br>
 T(19) = E(4) <br>
@@ -172,7 +172,7 @@ O 5 <br>
 B 4 <br>
 W 1 <br>
 Z 1 <br>
-Eventually after a while of trial and error, comparing this text's analysis to the english language I get the key of "IZHKBALGDMNCOPJRSTUFVWXEYQ". This key gives us the following plaintext when plugged into my substitution cipher decryption script in python (Substitution.py)
+Eventually, after a while of trial and error, comparing this text's analysis to the English language I get the key of "IZHKBALGDMNCOPJRSTUFVWXEYQ". This key gives us the following plaintext when plugged into my substitution cipher decryption script in python (Substitution.py)
 ```
 THE SPIDER HAS A BAD NAME TO MOST OF US SHE REPRESENTS AN ODIOUS NOXIOUS ANIMAL WHICH EVERY ONE HASTENS TO CRUSH UNDER FOOT AGAINST THIS 
 SUMMARY VERDICT THE OBSERVER SETS THE BEASTS INDUSTRY ITS TALENT AS A WEAVER ITS WILINESS IN THE CHASE ITS TRAGIC NUPTIALS AND OTHER 
@@ -200,6 +200,13 @@ HIS MALMIGNATTE THOSE SPIDERS MIGHT EASILY DESERVE AT LEAST PARTLY THEIR TERRIBL
 These are the first few paragraphs in the book "The Life of the Spider - J. Henri Fabre"
 
 ## problem 7: (RSA) Ages ago, you posted a public key to an anonymous message board, but you've lost the link. Out of the blue, you receive a cryptic, anonymous message <br> R1: 13512408<br> R2: 16662049<br> that you believe was encrypted with that key. You can remember that n =  35808247 = 5981 * 5987, but have forgotten your encryption exponent. Fortunately, it seems that the same person sent you the encryption exponent in one of the earlier clues! Decrypt this message. You should get four numbers (hint: remember we use 8-bit ASCII...)
-I actually don't know how to solve this one. I'm sure I could figure it out eventually but in the interest of getting this to you sooner I'm going to skip this question.
+I don't know how to solve this one. I'm sure I could figure it out eventually but in the interest of getting this to you sooner, I'm going to skip this question.
 
-## Problem 8: (Playfair) No messages for months. You return to the park where this adventure started. Underneath the bench, you find a post-it note with a final message (hint: it is a url) <br> KBATNAQGQMDOGDGVNBVOWPCF
+## Problem 8: (Hill) Course Assistant Felix wakes you up early in the morning. His food bowl is empty of food -- in its place is a sheet of paper with the following message. You decrypt it.<br> TMSAGSYBXMWZBLIOQDDNSRWZDNANCAHTTMICHBCPWHDASRRFVDONFBSRBGFNZQ
+I don't know how to solve this one. I'm sure I could figure it out eventually but in the interest of getting this to you sooner, I'm going to skip this question.
+
+## Problem 9: (Playfair) No messages for months. You return to the park where this adventure started. Underneath the bench, you find a post-it note with a final message (hint: it is a url) <br> KBATNAQGQMDOGDGVNBVOWPCF
+I don't know how to solve this one. I'm sure I could figure it out eventually but in the interest of getting this to you sooner, I'm going to skip this question.
+
+## Problem 10: Any final thoughts?
+This was a very fun class and even though I was supposed to use MATLAB for this class, I did develop some cool python scripts that I can use for my work as a cybersecurity analyst. Thank you for a great semester and have a great summer!

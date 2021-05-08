@@ -70,4 +70,5 @@ FDBDW RYTVH VRDGC OIJWT URJDM RPDGT GJVWI ZLWMU AZLWB KIZJW IQHJH ACQKV VSMHT ZF
 DSMUJ ZJHBD WZXPN UEZVI WVXRJ IBKIS WATJS ZFVBK ISWAT KYEYD VWLVV DWUFP ETIQW FXPKX VMWSZ LFSGC WIWKW TTZEJ VXNIM TMABW STAGK XQMWC BLXNS HPRTV 
 DTAVP PUGIF OVVQC WSWSC MYIEA CODXK ZTAOM XZIMV XGJDD RGRLX WQMKU AIWXV JTLEI YACLW LVUJA WSDWG ELXYA BXXHV FIDLV LDTVF IXXXX
 ```
-I don't know what the fourth character is, but I can still figure this out. I started by using the index of coincidence to try and identify the key length. What that sentence does tell us is that the keyword is 4 charcters or longer. <br>
+I don't know what the fourth character is, but I can still figure this out. I started by using the index of coincidence to try and identify the key length. What that sentence does tell us is that the keyword is 4 charcters or longer. I made a, you guess it, a python script to do this for me. It's called Coincidence.py<br>
+When I ran the script I found that every 6 characters the coincidence would increase to a little over 6% which is about a 2-3% increase over the others. With this information we can assume the keylength is 6. <br>

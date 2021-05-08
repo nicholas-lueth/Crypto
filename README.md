@@ -199,6 +199,4 @@ HIS MALMIGNATTE THOSE SPIDERS MIGHT EASILY DESERVE AT LEAST PARTLY THEIR TERRIBL
 ```
 These are the first few paragraphs in the book "The Life of the Spider - J. Henri Fabre"
 
-## problem 7: (RSA) Ages ago, you posted a public key to an anonymous message board, but you've lost the link. Out of the blue, you receive a cryptic, anonymous message <br> R1: 13512408<br> 
-R2: 16662049<br>
-that you believe was encrypted with that key. You can remember that n =  35808247 = 5981 * 5987, but have forgotten your encryption exponent. Fortunately, it seems that the same person sent you the encryption exponent in one of the earlier clues! Decrypt this message. You should get four numbers (hint: remember we use 8-bit ASCII...)
+## problem 7: (RSA) Ages ago, you posted a public key to an anonymous message board, but you've lost the link. Out of the blue, you receive a cryptic, anonymous message <br> R1: 13512408<br> R2: 16662049<br> that you believe was encrypted with that key. You can remember that n =  35808247 = 5981 * 5987, but have forgotten your encryption exponent. Fortunately, it seems that the same person sent you the encryption exponent in one of the earlier clues! Decrypt this message. You should get four numbers (hint: remember we use 8-bit ASCII...)

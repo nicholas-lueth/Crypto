@@ -43,14 +43,7 @@ If we plug these values into the python script I made for decoding affine cipher
 And the number we will need later on is 16337
 
 ## Problem 4: (SDES) You wake up to an annoying flashing light outside your window. Paying attention to the rhythm of the flashes, you figure out that it is repeating the message: 10010011 <br>After you write it down, a new pattern begins: 001011011001 <br>8-bit and 12-bit blocks... sounds like an SDES message and its key! Decrypt the message.
-Since I'm on a time crunch I'm going to unfortunatley skip this question, but I think this would be a really cool cipher to try and decode and implement in python. I used another persons program to get the following, so I should not recieve credit for this question. I don't even necessarily know if the information is right.<br>
-First key: 00101101<br>
-Second key: 11110010<br>
-IP: 00011101<br>
-Fk: 01111101<br>
-SW: 11010111<br>
-Fk: 10110111<br>
-IP^-1: 11101011<br>
+Since I'm on a time crunch I'm going to unfortunatley skip this question, but I think this would be a really cool cipher to try and decode and implement in python.
 
 ## Problem 5: (Vigenere) Another paper airplane, another mysterious message. Identify the source of this message for one bonus point. Hint: the fourth character of the keyword has already been sent to you...
 ```

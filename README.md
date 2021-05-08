@@ -70,4 +70,4 @@ FDBDW RYTVH VRDGC OIJWT URJDM RPDGT GJVWI ZLWMU AZLWB KIZJW IQHJH ACQKV VSMHT ZF
 DSMUJ ZJHBD WZXPN UEZVI WVXRJ IBKIS WATJS ZFVBK ISWAT KYEYD VWLVV DWUFP ETIQW FXPKX VMWSZ LFSGC WIWKW TTZEJ VXNIM TMABW STAGK XQMWC BLXNS HPRTV 
 DTAVP PUGIF OVVQC WSWSC MYIEA CODXK ZTAOM XZIMV XGJDD RGRLX WQMKU AIWXV JTLEI YACLW LVUJA WSDWG ELXYA BXXHV FIDLV LDTVF IXXXX
 ```
-I don't know what the fourth character is, but I can still figure this out. I started by using the index of coincidence to try and identify the key length. <br>
+I don't know what the fourth character is, but I can still figure this out. I started by using the index of coincidence to try and identify the key length. What that sentence does tell us is that the keyword is 4 charcters or longer. <br>

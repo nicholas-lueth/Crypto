@@ -151,4 +151,7 @@ PXQSG RAKHT PMJFU XPYXK XPHXR ALIFK LXAQK MRGAD XGYRM IAJAK AQCRC XIAQL MJTMP RE
 KIXKO SAPXV CXKRC XLFGF EPAFK NXFQF KRRFG DQRMJ XMTCA QRFPF KRSGF RCXNS BFSIP XFNXP MTCAQ RCXPA IAMKG SHSEP XRCXL MPQAL FKCSQ EFKIJ FKMTC AQJFG JAHKF
 RRXRC MQXQN AIXPQ JAHCR XFQAG YIXQX PUXFR GXFQR NFPRG YRCXA PRXPP AEGXP XNSRF RAMK
 ```
-This one is acutally relatively easy to solve. All we need to do is do a frequency analysis with the script that we used for the last problem and compare the analysis to the English Language frequency analysis.
+This one is acutally relatively easy to solve. All we need to do is do a frequency analysis with the script that we used for the last problem and compare the analysis to the English Language frequency analysis. Eventually after a while of trial and error I get the key of "IZHKBALGDMNCOPJRSTUFVWXEYQ". This key gives us the following plaintext.
+```
+
+```

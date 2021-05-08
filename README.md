@@ -179,7 +179,7 @@ O 5 <br>
 B 4 <br>
 W 1 <br>
 Z 1 <br>
-Eventually after a while of trial and error, comparing this text's analysis to the english language I get the key of "IZHKBALGDMNCOPJRSTUFVWXEYQ". This key gives us the following plaintext.
+Eventually after a while of trial and error, comparing this text's analysis to the english language I get the key of "IZHKBALGDMNCOPJRSTUFVWXEYQ". This key gives us the following plaintext when plugged into my substitution cipher decryption script in python (Substitution.py)
 ```
 THE SPIDER HAS A BAD NAME TO MOST OF US SHE REPRESENTS AN ODIOUS NOXIOUS ANIMAL WHICH EVERY ONE HASTENS TO CRUSH UNDER FOOT AGAINST THIS 
 SUMMARY VERDICT THE OBSERVER SETS THE BEASTS INDUSTRY ITS TALENT AS A WEAVER ITS WILINESS IN THE CHASE ITS TRAGIC NUPTIALS AND OTHER 
